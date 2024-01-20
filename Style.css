@@ -1,0 +1,177 @@
+.logo img {
+    height: 59px;
+    width: 59px;
+    border: 2px solid white;
+    border-radius: 50px;
+    align-content: center;
+}
+
+.navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 70px;
+    width: 1500px;
+    z-index: -3;
+    opacity: 1.5;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 10px 17px;
+  }
+
+.navbar li a{
+    text-decoration: none;
+  }
+
+.back img{
+    height: 400px;
+    width: 1400px;
+}
+
+#home{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 100px 13px;
+    padding: 10px 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    background-image: url(different-natural-fresh-ripe-cutted-vegetables-lies-old-white-rustic-wooden-table-kitchen-different-natural-fresh-ripe-163490068.webp);
+    height: 400px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89
+}
+
+#head1{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#btn{
+    border: 2px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#box-1{
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 15px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin: 2px 30px;
+
+}
+
+#box-2{
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 23px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin: 2px 30px;
+}
+
+#box-3{
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 23px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin: 2px 30px;
+}
+
+#pizza{
+    width: 150px;
+    height: 150px;
+}
+
+#birya{
+    width: 150px;
+    height: 150px;
+}
+
+#food{
+    width: 150px;
+    height: 150px;
+}
+
+#head2{
+    text-align: center;
+    margin-bottom: 50px;
+    color: blue;
+}
+
+#head3{
+    padding-top: 25px;
+    text-align: center;
+    color: blue;
+}
+
+#clients{
+    background-image: url(healthy-chopped-vegetable-salad-recipe-3.jpg);
+    height: 300px;
+}
+
+#mine img{
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+}
+
+#head4{
+    text-align: center;
+    color: blue;
+}
+
+#for{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+#for input{
+    padding: 1px 30px;
+}
+
+#btns{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-content: center; */
+    text-align: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-top: 20px;
+}
+
+#contact{
+    background-image: url(contact.jpg);
+    height: 300px;
+}
